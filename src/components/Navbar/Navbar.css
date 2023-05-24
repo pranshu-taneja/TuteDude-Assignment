@@ -145,7 +145,7 @@ nav button {
     }
 
     .ddmenu {
-        display: block;
+        display: flex;
         margin-right: 3rem;
         background-color: #800080;
         height: 2.8rem;
@@ -156,6 +156,7 @@ nav button {
     .ddmenu>button {
         color: white;
         width: 180px;
+        font-size: 16px;
     }
 
     .pagelinks {

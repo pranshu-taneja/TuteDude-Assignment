@@ -1,8 +1,9 @@
 import React from "react";
 import "./FriendsReferred.css";
 import { v4 as uuidv4 } from "uuid";
+import GoBack from "../components/GoBack/GoBack";
 
-//------------------- carousal dummy -------------------
+//------------------- carousal  -------------------
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 const responsive = {
@@ -24,7 +25,7 @@ const responsive = {
     items: 1,
   },
 };
-//------------------- carousal dummy -------------------
+//------------------- carousal  -------------------
 
 const data = [
   {
@@ -55,9 +56,12 @@ const data = [
   },
 ];
 
+
 function FriendsReferred() {
+
   return (
     <div className="RefFrndsContainer">
+      <GoBack />
       <section className="Row1">
         <div className="RefCodeContainer">
           <div className="refCode">
