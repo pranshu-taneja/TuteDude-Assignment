@@ -1,0 +1,209 @@
+nav {
+    display: flex;
+    width: 100vw;
+    position: relative;
+    height: 73px;
+    background-color: #FFFFFF;
+}
+
+.tutedudelogo {
+    margin-left: 74px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+
+.dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    width: -webkit-fill-available;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown-menu li {
+    padding: 1rem;
+}
+
+.user-profile-dropdown {
+    position: absolute;
+    top: 73px;
+    width: 204px;
+}
+
+.pagelinks {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    margin-right: 32px;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #800080;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.ProfileName {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.nav-link a:active {
+    opacity: 1;
+}
+
+.nav-link a:not(:active) {
+    opacity: 0.25;
+}
+
+.nav-link a:hover,
+.nav-link a:focus {
+    opacity: 1;
+}
+
+.link.active {
+    opacity: 1;
+}
+
+.DropDownLink {
+    display: flex;
+    align-items: center;
+    color: #800080;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.stepsExp>p {
+    position: absolute;
+    width: 224px;
+    height: 36px;
+    left: 187px;
+    top: 407px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    color: #800080;
+}
+
+.ddmenu {
+    display: none;
+}
+
+
+@media (max-width: 500px) {
+    .NavbarContainer {
+        width: 100vw;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 62px;
+    }
+
+    .tutedudelogo {
+        margin-left: 0px;
+    }
+
+    .ProfileLogo{
+        display: none;
+        visibility: hidden;
+    }
+
+    .ddmenu {
+        display: block;
+        margin-right: 3rem;
+        background-color: #800080;
+        height: 2.8rem;
+        border-radius: 10px;
+        height: 48px;
+    }
+
+    .ddmenu>button {
+        color: white;
+        width: 180px;
+    }
+
+    .pagelinks {
+        /* hide this */
+        display: none;
+        /* justify-content: center;
+        align-items: end;
+        flex-direction: column;
+        position: absolute;
+        top: 4.5rem;
+        background-color: ghostwhite;
+        z-index: 1; */
+    }
+
+    .pagelinks-mobile{
+        justify-content: center;
+        align-items: end;
+        flex-direction: column;
+        position: absolute;
+        top: 4.5rem;
+        background-color: ghostwhite;
+        z-index: 1;
+    }
+
+    .nav-link {
+        height: 2.5rem;
+        color: white;
+    }
+
+
+
+    .nav-link a:hover,
+    .nav-link a:eocus {
+        opacity: 1;
+    }
+
+
+
+    .ProfileName .dropdownLogo {
+        display: none;
+    }
+
+    .dropdown-button>.dropdownLogo {
+        transition: transform 0.1s ease-in-out;
+
+    }
+
+    .dropdown-button.active>.dropdownLogo {
+        transform: rotate(180deg);
+    }
+}

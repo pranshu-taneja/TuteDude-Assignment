@@ -1,0 +1,54 @@
+
+.step {
+    display: flex;
+    margin-top: 18.5px;
+    margin-bottom: 18.5px;
+}
+
+.imgContainer {
+    width: 65px;
+    height: 65px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(217, 217, 217, 0.25);
+    border-radius: 50%;
+}
+
+
+.stepText{
+    margin-left: 20px;
+}
+
+.HeadofStep {
+    width: 275px;
+    height: 24px;
+    margin: 0px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    
+    color: #000000;
+}
+
+.DesofStep {
+    width: 275px;
+    height: 48px;
+    margin: 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #4D4D4D;
+}
+

@@ -1,0 +1,35 @@
+.breadcrumb{
+    /* margin-left: 187px; */
+    left: 187px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: auto;
+    height: 76px;
+    background: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+
+a:hover{
+    color: #800080;
+}
+
+.BreadCrumbcontainer{
+    display: flex;
+    background-color: #FFFFFF;
+}
+
+
+
+@media (max-width: 500px) {
+    .breadcrumb{
+       left: 35px;
+    }
+}

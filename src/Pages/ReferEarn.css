@@ -1,0 +1,291 @@
+.ReferEarncontainer {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.balancebox {
+    position: absolute;
+    width: 486px;
+    height: 188px;
+    left: 187px;
+    top: 179px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxcontainer {
+    margin: 20px;
+}
+
+
+.boxtoptext {
+    /* Referral Earning */
+    width: 111px;
+    height: 21px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #800080;
+    margin: 0px;
+
+}
+
+.refDetails {
+    display: flex;
+    justify-content: space-between;
+}
+
+.amounttext {
+    width: 116px;
+    height: 48px;
+    margin: 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.balance {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 16px;
+    gap: 10px;
+
+    position: absolute;
+    height: 40px;
+    left: 153px;
+    top: 119px;
+
+    background: #800080;
+    border-radius: 20px;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+.refertext {
+    /* position: absolute; */
+    width: 228px;
+    height: 36px;
+    /* left: 766px; */
+    /* top: 179px; */
+    margin: 0;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    color: #800080;
+}
+
+.ReferralCode {
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 766px;
+    top: 179px;
+    display: flex;
+    flex-direction: column;
+}
+
+.codebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 358px;
+    height: 60px;
+
+
+
+    border: double 2px transparent;
+    border-radius: 10px;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #FF864C, #800080);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.codebox>p {
+    margin: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    letter-spacing: 1.5em;
+
+    color: #800080;
+
+}
+
+.ReferEarnRow1 {
+    width: 100vw;
+    height: 250px;
+}
+
+.ReferEarnRow2 {
+    width: 100vw;
+    height: 420px;
+}
+
+.stepsContainer {
+    width: 100vw;
+    height: 332px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.stepsContainerBox {
+    position: absolute;
+    left: 187px;
+    top: 407px;
+}
+
+.stepsContainerBox>p {
+    width: 224px;
+    height: 36px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    color: #800080;
+}
+
+
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.steps>.step {
+    flex-basis: calc(50% - 10px);
+}
+
+.steps>.step:nth-child(5) {
+    flex-basis: 98%;
+}
+
+
+.ReferEarnRow3 {
+    width: 100vw;
+    height: 130px;
+}
+
+.footerLinks {
+    position: absolute;
+    left: 187px;
+    top: 860px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.footerLinks>a {
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #800080;
+}
+
+
+
+@media (max-width: 500px) {
+    .balancebox {
+        width: 358px;
+        height: 198px;
+        margin: 35px;
+        left: 0px;
+        top: 230px;
+        position: static;
+    }
+
+    .ReferEarnRow1 {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stepsContainerBox {
+        position: static;
+        margin: 35px;
+        margin: 35px 35px 35px 55px
+    }
+
+    .steps {
+        display: flex;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .stepsContainer {
+        height: auto;
+    }
+
+    .ReferEarnRow2 {
+        height: auto;
+    }
+
+    .ReferralCode {
+        position: static;
+    }
+
+    .balance {
+        position: absolute;
+        top: 24rem;
+        left: 12rem;
+    }
+
+    .refDetails {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .footerLinks{
+        position: static;
+        margin: 5px 35px;
+    }
+}

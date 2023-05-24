@@ -1,0 +1,303 @@
+.RefFrndsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.RefCodeContainer {
+    display: flex;
+    position: absolute;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    height: 24px;
+    left: 187px;
+    top: 151px;
+    height: inherit;
+
+}
+
+.Row1 {
+    width: 100vw;
+    height: 8rem;
+}
+
+.refCode {
+    display: flex;
+    flex-direction: column;
+}
+
+.RefFrndHeadText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px;
+    /* identical to box height */
+
+
+    color: #800080;
+}
+
+.RefFrndCodeText {
+    margin: 0px;
+    text-align: center;
+    border: 1.5px solid #DFDFDF;
+    border-radius: 10px;
+    width: fit-content;
+
+
+    padding: 13px 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 0.75em;
+
+    color: #000000;
+}
+
+.walletBalance {
+    width: 145px;
+    height: 85px;
+
+    display: flex;
+    flex-direction: column;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+    border-radius: 20px;
+}
+
+.balHeadText {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #800080;
+}
+
+.balAmount {
+    padding-left: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.Row2 {
+    width: 100vw;
+    height: 300px;
+}
+
+.enrolledContainer {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 189px;
+}
+
+.enrHead {
+    width: max-content;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #800080;
+}
+
+.react-multi-carousel-track {
+    width: 80vw;
+    height: 40vh;
+    gap: 20px;
+    z-index: 1;
+
+}
+
+.enrHead>span {
+    color: #626262
+}
+
+.enrolledStudents {
+    width: 80vw;
+}
+
+.studentCard {
+    margin-top: 20px;
+    padding: 20px;
+    width: 338px;
+    height: 208px;
+
+    /* NEW GRADIENT 2 */
+
+    background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nameDate {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.name {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.date {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.enrolledCourses>p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 10px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.courseTagsContainer {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.courseTag {
+    border: 1.5px solid #EEAEAE;
+    border-radius: 20px;
+
+    padding: 4px 9px;
+    margin: 4px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.ReferralAmount>p {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.amountMoney {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+
+.Row3 {
+    margin-top: 60px;
+    width: 100vw;
+}
+
+.footerContainer {
+    position: absolute;
+    left: 187px;
+}
+
+.footerContainer>a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #800080;
+}
+
+
+
+@media (max-width: 500px) {
+
+    .Row2 {
+        height: auto;
+    }
+
+    .RefCodeContainer {
+        position: static;
+        margin: 35px;
+    }
+
+    .enrolledContainer {
+        position: static;
+        margin: 35px;
+    }
+
+    .enrolledStudents {
+        align-items: start;
+        width: auto;
+    }
+
+    .react-multi-carousel-track {
+        flex-direction: column !important;
+        margin: 0px 0px 0px -1rem;
+        height: auto;
+        pointer-events: none;
+    }
+
+
+    .footerContainer {
+        position: static;
+        margin-left: 35px;
+    }
+}
