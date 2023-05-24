@@ -139,7 +139,7 @@ nav button {
         margin-left: 0px;
     }
 
-    .ProfileLogo{
+    .ProfileLogo {
         display: none;
         visibility: hidden;
     }
@@ -156,7 +156,7 @@ nav button {
     .ddmenu>button {
         color: white;
         width: 180px;
-        font-size: 16px;
+
     }
 
     .pagelinks {
@@ -164,7 +164,7 @@ nav button {
         display: none;
     }
 
-    .pagelinks-mobile{
+    .pagelinks-mobile {
         display: flex;
         width: 11rem;
         justify-content: center;
@@ -192,6 +192,16 @@ nav button {
 
     .ProfileName .dropdownLogo {
         display: none;
+    }
+
+    .dropdown-button {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height */
+        color: #FFFFFF;
     }
 
     .dropdown-button>.dropdownLogo {
