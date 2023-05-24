@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import "./index.css";
 //pages
 import ChatMentor from "./Pages/ChatMentor";
@@ -11,7 +11,7 @@ import FriendsReferred from "./Pages/FriendsReferred.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <App />
       <Routes>
         <Route path="/" exact element={<ChatMentor />}></Route>
@@ -23,6 +23,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           element={<FriendsReferred />}
         />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
