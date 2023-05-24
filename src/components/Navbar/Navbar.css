@@ -161,16 +161,11 @@ nav button {
     .pagelinks {
         /* hide this */
         display: none;
-        /* justify-content: center;
-        align-items: end;
-        flex-direction: column;
-        position: absolute;
-        top: 4.5rem;
-        background-color: ghostwhite;
-        z-index: 1; */
     }
 
     .pagelinks-mobile{
+        display: flex;
+        width: 11rem;
         justify-content: center;
         align-items: end;
         flex-direction: column;

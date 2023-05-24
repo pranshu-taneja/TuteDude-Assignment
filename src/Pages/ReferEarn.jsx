@@ -1,6 +1,12 @@
 import React from "react";
 import "./ReferEarn.css";
-import StepsToRefer from "../components/stepsToRefer/stepsToRefer";
+import People from "../assets/People.png";
+import Coupon from "../assets/coupon.png";
+import Wallet from "../assets/wallet.png";
+import Discount from "../assets/discount.png";
+import Rupee from "../assets/rupee.png";
+
+import StepsToRefer from "../components/stepsToRefer/StepsToRefer";
 import { Link } from "react-router-dom";
 
 function ReferEarn() {
@@ -41,27 +47,27 @@ function ReferEarn() {
             <p>How does it work?</p>
             <div className="steps">
               <StepsToRefer
-                img="src\assets\People.png"
+                img={People}
                 head="Invite your Friends"
                 des="Share the link tutedude.com with your friends"
               />
               <StepsToRefer
-                img="src\assets\coupon.png"
+                img={Coupon}
                 head="Friend purchases any course"
                 des="Using your REFERRAL CODE in the payments page"
               />
               <StepsToRefer
-                img="src\assets\rupee.png"
+                img={Rupee}
                 head="You get ₹ 200 as referral money"
                 des="On total purchase the friend makes, into your wallet"
               />
               <StepsToRefer
-                img="src\assets\discount.png"
+                img={Discount}
                 head="Your Friend gets ₹ 200 Off "
                 des="On his overall fee on successful purchase using your referral code "
               />
               <StepsToRefer
-                img="src\assets\wallet.png"
+                img={Wallet}
                 head="Transfer money from wallet"
                 des="When the wallet balance reaches ₹200 or more, you can withdraw it"
               />
@@ -79,5 +85,6 @@ function ReferEarn() {
     </div>
   );
 }
+
 
 export default ReferEarn;

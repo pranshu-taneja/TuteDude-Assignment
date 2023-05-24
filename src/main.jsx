@@ -18,7 +18,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/MyAssignment" exact element={<MyAssignment />}></Route>
         <Route path="/ChatMentor" exact element={<ChatMentor />}></Route>
         <Route path="/ReferEarn" exact element={<ReferEarn />}></Route>
-        <Route path="/ReferEarn/FriendsReferred" element={<FriendsReferred />} />
+        <Route
+          path="/ReferEarn/FriendsReferred"
+          element={<FriendsReferred />}
+        />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

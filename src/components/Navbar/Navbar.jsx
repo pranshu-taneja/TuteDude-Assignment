@@ -148,7 +148,7 @@ function NavLinksMobile() {
           }}
           to="/ChatMentor"
         >
-          Chat with Mentor
+          Chat Mentor
         </Link>
       </li>
       <li className="nav-link ProfileName">
@@ -161,9 +161,9 @@ function NavLinksMobile() {
             toggleActive("ProfileName");
           }}
         >
-          <img src={userLogo} className="ProfileLogo" alt="" />
-          &nbsp; ProfileName &nbsp;
-          <img src={dropdown} className="dropdownLogo" alt="" />
+          {/* <img src={userLogo} className="ProfileLogo" alt="" /> */}
+          Profile Name
+          {/* <img src={dropdown} className="dropdownLogo" alt="" /> */}
         </Link>
       </li>
     </div>

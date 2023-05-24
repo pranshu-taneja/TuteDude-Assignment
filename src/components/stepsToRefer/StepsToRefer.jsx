@@ -1,6 +1,6 @@
 import './StepsToRefer.css';
 
-function stepsToRefer({img, head, des}) {
+function StepsToRefer({img, head, des}) {
   return (
     <div className="step">
       <div className="imgContainer">
@@ -15,4 +15,4 @@ function stepsToRefer({img, head, des}) {
   );
 }
 
-export default stepsToRefer;
+export default StepsToRefer;
