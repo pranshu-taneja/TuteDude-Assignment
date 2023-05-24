@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import TuteDudeLogo from "../../assets/TuteDudeLogo.jpg";
 import "./Navbar.css";
 import dropdown from "../../assets/dropdown.png";
-import userLogo from "../../assets/userLogo.png";
+import userLogo from "../../assets/userlogo.png";
 import { useState } from "react";
 import dropdownwhite from "../../assets/dropdownwhite.png";
 
