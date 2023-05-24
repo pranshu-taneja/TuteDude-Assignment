@@ -305,3 +305,14 @@
         margin-left: 35px;
     }
 }
+
+@media (max-width: 460px) and (min-width: 100px) {
+    .react-multi-carousel-track li{
+        width: auto !important;
+        height: auto;
+    }
+    .react-multi-carousel-track .studentCard{
+        width: auto;
+        height: auto;
+    }
+} 
